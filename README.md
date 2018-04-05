@@ -8,6 +8,6 @@ Objective: We designed an Android application that can be used to combat sexual 
 
 Purpose: Sexual assault can often surprise victims. By having an application that is there to protect them, no matter the context of their discomfort/fear, users will be able to feel more secure wherever they are. 
 
-Implementation: Users will be prompted one time to log in to the SafeTrek API, using OAuth2 over SSL for authentication and authorization. From there, they will be directed to a screen with an explanation of the directions and a timer, which they could set to any time they choose. The timer will be assigned a sound to ring an alarm when it expires. Once the timer has expired, the user will be prompted if they would like to cancel or refresh the alarm. Should they fail to respond within 15 seconds, the SafeTrek API will be utilized to reach out for help.
+Implementation: Users will be prompted one time to log in to the SafeTrek API, using OAuth2 over SSL for authentication and authorization. From there, they will be directed to a screen with an explanation of the directions and a timer, which they could set to any time they choose. The timer will be assigned a sound to ring an alarm when it expires. Once the timer has expired, the user will be prompted if they would like to cancel or refresh the alarm. Should they fail to respond within 30 seconds, the SafeTrek API will be utilized to reach out for help.
 
 Built With: Android Studio
