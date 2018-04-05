@@ -28,8 +28,8 @@
                 <category android:name="android.intent.category.DEFAULT
 " />
                 <category android:name="android.intent.category.BROWSABLE" />
-                <data android:scheme="timeguardian"
-                    android:host="oauth" />
+                <data android:scheme="https"
+                    android:host="timeguardian.herokuapp.com/callback" />
             </intent-filter>
 
         </activity>
